@@ -21,3 +21,6 @@ scp {file name} michael@192.168.4.47:{folder to send to}/
 - from terminal home do "cd Desktop" to go to desktop
 
 "ls" to view files within current directory
+
+#### Open files
+cat {file name}
