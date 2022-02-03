@@ -22,5 +22,7 @@ scp {file name} michael@192.168.4.47:{folder to send to}/
 
 "ls" to view files within current directory
 
+"pwd" to view path to current directory
+
 #### Open files
 cat {file name}
