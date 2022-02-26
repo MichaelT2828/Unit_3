@@ -375,6 +375,14 @@ Screen:
                 on_release:
                     app.one()
 
+
+https://user-images.githubusercontent.com/89366878/155838463-393d909e-c71f-4e20-b970-f830deb23d50.mov
+
+
+
+https://user-images.githubusercontent.com/89366878/155838478-eae904fd-b99b-404b-b90e-393858b68851.mov
+
+
             MDLabel:
                 size_hint: 0.00666, 1
 
@@ -466,4 +474,4 @@ Screen:
 
 ### Test
 
-https://github.com/MichaelT2828/Unit_3/blob/main/Homework/calculator_test.mov
+![](calculator_test.gif)
