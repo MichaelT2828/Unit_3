@@ -1,6 +1,6 @@
 # Table of contents
 
-1. [Criterion A: Planning](https://github.com/MichaelT2828/Unit_3/new/main/Project_3#criterion-a-planning)
+1. [Criterion A: Planning](https://github.com/MichaelT2828/Unit_3/blob/main/Project_3/Documentation.md#criterion-a-planning)
 
 # Criterion A: Planning
 
