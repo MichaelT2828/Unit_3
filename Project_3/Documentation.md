@@ -51,6 +51,10 @@ Additionally, since it is an Object Relational Mapper (ORM), I will be able to q
 6. Each user will have permissions declaring whether they may edit the database, with additional default users only being able to add and view logs.
 7. The owner will be able to change permissions for each user.
 
+### Client Confirmation
+
+![](success_criteria_confirmation.png)
+
 ### Citations
 
 1. “Why Is Python Considered the Top Programming Language?” BairesDev, 5 July 2021, https://www.bairesdev.com/technologies/why-is-python-top-language/. 
