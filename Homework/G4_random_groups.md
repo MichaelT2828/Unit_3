@@ -8,6 +8,9 @@ import random
 # set the seed for the randomizer so the program is reproducible
 random.seed(2022)
 
+# set a global list of students so removal process from a single object will affect the rest of the objects 
+students = ["Danish", "Marika", "Minato", "Aup", "Mitsuki Baba", "Shinebayar", "Fabi", "Soraya", "Zoopash", "Julia", "Taichi", "Yurika", "Beatrice", "Elia", "Kyoka", "Ryu", "Leo", "Mitsuki Kyota", "Ming", "Marian", "Kamilla", "Kojiro", "Jun", "Ji Yang", "Reiji", "Minori", "Shimba", "Vanni", "Nagisa", "Boss", "Nina", "Hana", "David", "Asahi", "Michael", "Yuki", "Janet", "Anju", "Andy"]
+
 # create class to append names to groups
 class Groups:
 
@@ -16,7 +19,7 @@ class Groups:
         # empty list of new group
         self.names = names
         # list of all student names in the grade
-        self.all_names = ["Danish", "Marika", "Minato", "Aup", "Mitsuki Baba", "Shinebayar", "Fabi", "Soraya", "Zoopash", "Julia", "Taichi", "Yurika", "Beatrice", "Elia", "Kyoka", "Ryu", "Leo", "Mitsuki Kyota", "Ming", "Marian", "Kamilla", "Kojiro", "Jun", "Ji Yang", "Reiji", "Minori", "Shimba", "Vanni", "Nagisa", "Boss", "Nina", "Hana", "David", "Asahi", "Michael", "Yuki", "Janet", "Anju", "Andy"]
+        self.all_names = students
         # size of new group
         self.size = size
 
@@ -28,7 +31,7 @@ class Groups:
             # append that name to new group
             self.names.append(one_name)
             # remove that name from full list so there are no repeats
-            self.all_names.remove(one_name)
+            students.remove(one_name)
         # return the list of names in the new group
         return self.names
 
