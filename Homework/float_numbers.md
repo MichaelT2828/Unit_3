@@ -16,7 +16,7 @@ The reason why floating point numbers are important in understanding this simple
 
 ### 0.1 + 0.2
 
-Similarly to the previous example, adding 0.1 and 0.2 for a computer would not be so simple, as it would take the binary string of numbers that creates 0.1 in base 10, add that to the binary string of numbers that creates 0.2, and find that it runs out of digits to solve an infinite string of digits. Therefore, the tiny difference where it cuts of at the end of its calculation between the addition of 0.1 and 0.2, and 0.3, tells the computer the two numbers aren't quite the same, and returns False<sup>[[3]](youtube.com/watch?v=PZRI1IfStY0)</sup>. To prove this, the following python code will return the addition of 0.1 and 0.2
+Similarly to the previous example, adding 0.1 and 0.2 for a computer would not be so simple, as it would take the binary string of numbers that creates 0.1 in base 10, add that to the binary string of numbers that creates 0.2, and find that it runs out of digits to solve an infinite string of digits. Therefore, the tiny difference where it cuts of at the end of its calculation between the addition of 0.1 and 0.2, and 0.3, tells the computer the two numbers aren't quite the same, and returns False<sup>[[3]](youtube.com/watch?v=PZRI1IfStY0)</sup>. To prove this, the following python code will return the addition of 0.1 and 0.2:
 
 <img width="183" alt="addition_proof" src="https://user-images.githubusercontent.com/89366878/162236390-1fe604f9-4107-4d84-b7e6-540c27f933f3.png">
 
