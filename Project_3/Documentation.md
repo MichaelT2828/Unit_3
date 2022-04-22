@@ -109,11 +109,11 @@ Additionally, since it is an Object Relational Mapper (ORM), I will be able to q
 
 ## Flow diagrams
 
-![](loginscreen_flowchart.drawio.png)
+![](loginscreen_flowdiagram.drawio.png)
 
 ***Figure 8:*** . Shows the OOP class for the login page, used to allow the user access to the rest of the application.
 
-![](borrowscreen_flowchart.drawoio.png)
+![](borrowscreen_flowdiagram.drawoio.png)
 
 ***Figure 9:*** . Shows the OOP class for the borrow input page, used to input data into a table. 
 
