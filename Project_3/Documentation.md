@@ -844,7 +844,7 @@ This application will only be updated upon two scenarios. Firstly, if a bug is f
 
 ## Video demonstration
 
-https://drive.google.com/file/d/1aFeYq4fm6sBRH8UJD6j2hsz51WUr6kEM/view?usp=sharing
+https://drive.google.com/file/d/1ypJHV36j4wgtVxGCTsQ3Z7V4dIMQVUYi/view?usp=sharing
 
 ### Citations
 
