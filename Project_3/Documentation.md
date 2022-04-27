@@ -10,15 +10,15 @@
 
 ## Problem Definition
 
-My client, Hien Minh Trinh (David) regularly uses the kitchen, and often finds there are an excess amount of dishes and kitchen equipment that are unwashed, or in need of maintenence.
-As such, he requires an application to manage the usage of kitchen appliances in his house, so he is able to keep his housemates accountable for the kitchen appliances they use. 
+My client regularly uses the kitchen, and often finds there are an excess amount of dishes and kitchen equipment that are unwashed, or in need of maintenence. 
+As such, he requires an application to manage the usage of kitchen appliances in his house, so he is able to keep his housemates accountable for the kitchen appliances they use. Compared to analog recording, the information the client needs is stored digitally, which is more secure since it won't get lost like a piece of paper might. Additionally, an application will be much more versatile, for example being able to easily add, delete and edit data on a table, whereas on an analog table the client would have to manually erase and write in new data.
 The application must be able to log when someone borrows a certain kitchen appliance, who borrowed it, when it was returned, and whether it was cleaned or not. 
 
 ## Proposed Solution
 
 ### Design Statement
 
-To solve David's problem, I will create an application to manage the usage of kitchen appliances in his house. I will be be using Python as the primary programming language for the application, KivyMD for the graphical user interface (GUI), and SQLAlchemy to manipulate the database in which the kitchen appliance logs will be stored.
+To solve my client's problem, I will create an application to manage the usage of kitchen appliances in his house. I will be be using Python as the primary programming language for the application, KivyMD for the graphical user interface (GUI), and SQLAlchemy to manipulate the database in which the kitchen appliance logs will be stored.
 The application will consist of a login page, a registration page, a page to view the usage of kitchen appliances, and a page to edit the log. 
 
 ### System
@@ -37,8 +37,7 @@ an object-oriented programming language, which will be useful for this project s
 
 ***KivyMD***
 
-I will be using KivyMD to create the graphical user interface, which is an open source library capable of creating graphical user interfaces (GUI) for applications<sup>[[3]](https://kivymd.readthedocs.io/en/latest/)</sup>. In this project, the GUI will act as the communication between the user, who will input commands and view information through their keyboard and computer screen,
-and the program, which will manipulate the database to create, add, edit and delete data. The GUI is a crucial component of this application, as it will allow the client, or anyone including those without experience in programming, to easily access the kitchen appliance logs. 
+I will be using KivyMD to create the graphical user interface, which is an open source library capable of creating graphical user interfaces (GUI) for applications<sup>[[3]](https://kivymd.readthedocs.io/en/latest/)</sup>. In this project, the GUI will act as the communication between the user, who will input commands and view information through their keyboard and computer screen, and the program, which will manipulate the database to create, add, edit and delete data. The GUI is a crucial component of this application, as it will allow the client, or anyone including those without experience in programming, to easily access the kitchen appliance logs. 
 
 ***SQLAlchemy***
 
@@ -48,7 +47,7 @@ Additionally, since it is an Object Relational Mapper (ORM), I will be able to q
 ### Success Criteria
 
 1. The application will keep track of kitchen appliances used, who used it, borrowing and return date and times, and cleaned status.
-2. The application will have a login page, a registration page, a menu page, a page to view the usage information of kitchen appliances, and a page to edit the log.
+2. The application will use a GUI to show a login page, a registration page, a menu page, a page to view the usage information of kitchen appliances, and a page to edit the log.
 3. The users will be able to create, add, edit and delete data in the table.
 4. The login information, such as the username, email and password, will be secured and the password will be encrypted through a hash.
 5. The registration page will allow additional users to gain access to use the application.
